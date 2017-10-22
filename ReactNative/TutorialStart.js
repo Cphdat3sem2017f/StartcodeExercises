@@ -63,7 +63,7 @@ class HomeScreen extends React.Component {
     const { navigate } = this.props.navigation;
     return (
       <View >
-        <Text style={{ textAlign: "center", fontSize: 20 }}>See all Demos</Text>
+        <Text style={{ textAlign: "center", fontSize: 20 }}>See all Demos implemented by XXXX</Text>
         <Touchable onPress={() => navigate('web')} title="What I have to do" />
         <Touchable onPress={() => navigate('basics')} title="Basics" />
         <Touchable onPress={() => navigate('props')} title="Props" />
