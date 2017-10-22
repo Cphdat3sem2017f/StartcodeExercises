@@ -49,7 +49,7 @@ class WhatToDo extends React.Component {
         (inspired of how you navigated into this)
       </Text>
         <WebView
-          source={{ uri: "https://facebook.github.io/react-native/docs/getting-started.html" }}
+          source={{ uri: "https://facebook.github.io/react-native/docs/tutorial.html" }}
           style={{ marginTop: 20, flex: 1 }}
         />
       </View>
