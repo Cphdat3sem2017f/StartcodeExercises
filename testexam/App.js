@@ -26,7 +26,7 @@ class Repository extends React.Component {
       this.state = { repo: {} }
     }
   
-    componentWillMount() {
+    componentDidMount() {
     }
     render() {
   
@@ -46,7 +46,7 @@ class Repositories extends React.Component {
   }
 
   componentWillMount() {
-    //This could where you would (initially) fetch data
+    //This could where you would fetch data
   }
 
   render() {
